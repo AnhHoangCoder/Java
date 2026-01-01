@@ -25,7 +25,7 @@ public class Bai_1{
             else if(Character.isLowerCase(mang[i])){
                 count_thuong++;
             }
-            else if(Character.isSpaceChar(mang[i])){
+            else if(Character.isWhitespace(mang[i])){
                 count_space++;
             }
         }
