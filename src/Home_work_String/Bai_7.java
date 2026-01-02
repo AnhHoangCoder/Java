@@ -9,8 +9,8 @@ public class Bai_7 {
         // 2. Các ký tự khác nhau bởi 1 khoảng trắng
         // 3. Ký tự đầu tiên của mỗi từ phải viết hoa
 
-        //Ví dụ : input: "     mÂy đz   đẹp   TRAI "
-        //output: "Mây Đz Đẹp Trai"
+        //Ví dụ : input: "     mÂy đz   đẹp   TRAI vkl"
+        //output: "Mây Đz Đẹp Trai Vkl"
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Hãy nhật vào chuỗi cần chuẩn hóa : ");
