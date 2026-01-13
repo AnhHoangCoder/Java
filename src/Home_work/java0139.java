@@ -32,6 +32,7 @@ public class java0139 {
                 System.out.println("NO");
             }
         }
+        sc.close();
     }
     public static boolean checkChuSo(int n){
         int sum = 0;

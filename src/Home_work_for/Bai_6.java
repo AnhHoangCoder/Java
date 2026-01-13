@@ -7,7 +7,8 @@ public class Bai_6{
         System.out.print("Nhập vào số nguyên a > 0 từ bàn phím : ");
 
         while(true){
-            int n = new Scanner(System.in).nextInt();
+            Scanner sc = new Scanner(System.in);
+            int n = sc.nextInt();
             if(check_nt(n)){
                 System.out.println(n + " là số nguyên tố");
             }
@@ -16,10 +17,11 @@ public class Bai_6{
             }
             System.out.println("Bạn có muốn tiếp tục sử dụng phần mềm ko ?");
             System.out.println("Nếu có thì bấm y");
-            char tmp = new Scanner(System.in).next().charAt(0);
+            char tmp = sc.next().charAt(0);
             if(tmp != 'y' && tmp != 'Y'){
                 break;
             }
+            sc.close();
         }
     }
     public static boolean check_nt(long n){

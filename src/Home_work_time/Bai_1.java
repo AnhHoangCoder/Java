@@ -30,5 +30,6 @@ public class Bai_1 {
         Date d = cal.getTime();
         String s = dinhdang.format(d);
         System.out.println("Bây giờ là : " + s);
+        sc.close();
     }
 }

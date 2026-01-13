@@ -14,5 +14,6 @@ public class Bai_4{
         for(int i = 0 ; i < str.length() ; i++){
             System.out.print(b.charAt(a.indexOf(str.charAt(i))));
         }
+        sc.close();
     }
 }

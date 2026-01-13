@@ -16,6 +16,7 @@ public class java0141 {
                 System.out.println("NO");
             }
         }
+        sc.close();
     }
     public static boolean checkFiBo(long n){
         if(n == 0 || n == 1) return true;

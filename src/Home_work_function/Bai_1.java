@@ -30,6 +30,7 @@ public class Bai_1{
             System.out.print("Thương của 2 số là : ");
             System.out.println(div(a,b));
         }
+        sc.close();
     }
     public static float sum(float a , float b){
         return a + b;

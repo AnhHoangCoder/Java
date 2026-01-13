@@ -15,6 +15,7 @@ public class java0117 {
             }
             System.out.println(sum);
         }
+        sc.close();
     }
     public static int Sum(int n){ //tính tổng các chữ số
         int sum = 0;

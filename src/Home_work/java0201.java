@@ -21,5 +21,6 @@ public class java0201{
             }
             System.out.println(res);
         }
+        sc.close();
     }
 }

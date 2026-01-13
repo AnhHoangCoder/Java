@@ -16,5 +16,6 @@ public class Bai_1{
         }
         System.out.print("Kết quả của " + tmp + "! = ");
         System.out.println(s);
+        sc.close();
     }
 }

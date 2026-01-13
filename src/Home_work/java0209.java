@@ -22,6 +22,7 @@ public class java0209 {
                 System.out.println(sum);
             }
         }
+        sc.close();
     }
     public static int Sum_arr(int[] a , int l , int r){
         int sum = 0;

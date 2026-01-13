@@ -20,5 +20,6 @@ public class java0207 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

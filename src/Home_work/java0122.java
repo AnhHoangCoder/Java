@@ -15,6 +15,7 @@ public class java0122 {
             }
             System.out.println(res);
         }
+        sc.close();
     }
     public static int GCD(int a ,int b){
         if(b==0) return a;

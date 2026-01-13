@@ -45,5 +45,6 @@ public class Bai_2 {
 
         System.out.println("Bây giờ là " + s);
         System.out.println("Tuổi của bạn là : " + tuoi);
+        sc.close();
     }
 }

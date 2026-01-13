@@ -30,5 +30,6 @@ public class java0203 {
             }
             System.out.println(dem);
         }
+        sc.close();
     }
 }

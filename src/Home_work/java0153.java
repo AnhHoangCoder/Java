@@ -17,5 +17,6 @@ public class java0153 {
             }
             System.out.println(sum);
         }
+        sc.close();
     }
 }

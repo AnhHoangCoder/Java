@@ -12,5 +12,6 @@ public class java0103 {
         }
         String msg = String.format("%.4f" , sum);
         System.out.println(msg);
+        sc.close();
     }
 }

@@ -28,5 +28,6 @@ public class java0123 {
         else{
             System.out.println("NO");
         }
+        sc.close();
     }
 }

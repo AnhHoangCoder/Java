@@ -32,5 +32,6 @@ public class java0116 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

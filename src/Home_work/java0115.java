@@ -24,5 +24,6 @@ public class java0115 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

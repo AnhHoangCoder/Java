@@ -15,6 +15,7 @@ public class java0112 {
             System.out.printf("%.4f" , KhoangCach(x1 , y1 , x2 , y2));
             System.out.println();
         }
+        sc.close();
     }
     public static double KhoangCach(double x1 , double y1 , double x2 , double y2){
         double x = x2 - x1;

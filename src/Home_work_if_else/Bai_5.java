@@ -72,5 +72,6 @@ public class Bai_5{
                 System.out.println(tmp2 + " " + ao + "i");
             }
         }
+        sc.close();
     }
 }

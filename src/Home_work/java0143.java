@@ -11,6 +11,7 @@ public class java0143 {
            int n = sc.nextInt();
            System.out.println(soFiBo(n));
        }
+       sc.close();
     }
     public static long soFiBo(int n){
         if(n == 0) return 0;

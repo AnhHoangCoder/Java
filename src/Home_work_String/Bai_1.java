@@ -33,5 +33,6 @@ public class Bai_1{
         System.out.println("Số lượng ký tự in hoa là : " + count_hoa);
         System.out.println("Số lượng ký tự số là : " + count_num);
         System.out.println("Số lượng khoảng trống là : " + count_space);
+        sc.close();
     }
 }

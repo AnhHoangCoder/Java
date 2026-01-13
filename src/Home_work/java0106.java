@@ -16,6 +16,7 @@ public class java0106 {
                 System.out.println("NO");
             }
         }
+        sc.close();
     }
     public static boolean checkSoThuanNghich(long n){
         String s = String.valueOf(n);

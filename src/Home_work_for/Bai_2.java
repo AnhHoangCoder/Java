@@ -20,5 +20,6 @@ public class Bai_2{
         else{
             System.out.println("Tôi ko tính tổng số lẻ , bye bye , hehehe");
         }
+        sc.close();
     }
 }

@@ -17,5 +17,6 @@ public class java0102 {
             }
             System.out.println(tmp);
         }
+        sc.close();
     }
 }

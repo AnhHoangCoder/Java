@@ -16,5 +16,6 @@ public class Bai_3{
         }
         System.out.print("Tổng các số lẻ từ 1 -> n (-3) = ");
         System.out.println(sum);
+        sc.close();
     }
 }

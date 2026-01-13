@@ -22,5 +22,6 @@ public class java0152 {
                 System.out.println(-1);
             }
         }
+        sc.close();
     }
 }

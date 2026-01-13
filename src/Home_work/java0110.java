@@ -12,6 +12,7 @@ public class java0110 {
             long n = sc.nextLong();
             System.out.println(tfm(n));
         }
+        sc.close();
     }
     public static String tfm(long n){
         String s = String.valueOf(n);

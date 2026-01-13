@@ -14,6 +14,7 @@ public class java0121 {
             long BSCNN = (a / USCLN) * b;
             System.out.println(BSCNN + " " + USCLN);
         }
+        sc.close();
     }
     public static long GCD(int a , int b){
         if(b == 0) return (long)a;

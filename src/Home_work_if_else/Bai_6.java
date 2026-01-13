@@ -11,5 +11,6 @@ public class Bai_6{
         float diem = sc.nextFloat();
 
         System.out.println((diem >= 8) ? "Giỏi" : (diem >= 6.5) ? "Khá" : (diem >= 5) ? "Trung bình" : "Yếu");
+        sc.close();
     }
 }

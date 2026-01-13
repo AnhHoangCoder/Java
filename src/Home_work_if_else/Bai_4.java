@@ -28,5 +28,6 @@ public class Bai_4{
                 System.out.println("Có 28 ngày");
             }
         }
+        sc.close();
     }
 }

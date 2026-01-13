@@ -34,5 +34,6 @@ public class Bai_3{
         else{
             System.out.println("Các vị trí index của các số đó là : " + lst2);
         }
+        sc.close();
     }
 }

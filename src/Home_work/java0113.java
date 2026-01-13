@@ -16,6 +16,7 @@ public class java0113 {
                 System.out.println(0);
             }
         }
+        sc.close();
     }
     public static boolean checkLucky(int n){
         return String.valueOf(n).contains("86");

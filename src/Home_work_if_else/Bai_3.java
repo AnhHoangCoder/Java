@@ -15,5 +15,6 @@ public class Bai_3{
         else{
             System.out.println(nam + " ko phải năm nhuận.");
         }
+        sc.close();
     }
 }

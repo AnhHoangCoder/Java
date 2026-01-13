@@ -1,7 +1,4 @@
 package Home_work_for;
-
-import java.util.Scanner;
-
 public class Bai_5{
     public static void main(String[] argc){
         //Tìm tất cả các số hoàn hảo từ 1 - 1000

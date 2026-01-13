@@ -26,5 +26,6 @@ public class java0205 {
                 System.out.println(res);
             }
         }
+        sc.close();
     }
 }

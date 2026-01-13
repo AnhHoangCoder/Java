@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class Bai_1 {
     public static void main(String[] a){
+        Scanner sc = new Scanner(System.in);
         System.out.println("Nhập vào tổng 2 số: ");
-        int tong = new Scanner(System.in).nextInt();
+        int tong = sc.nextInt();
 
         System.out.println("Nhập vào hiệu 2 số: ");
-        int hieu = new Scanner(System.in).nextInt();
+        int hieu = sc.nextInt();
 
         double x = (double)(tong + hieu) / 2;
         double y = (double)(tong - hieu) / 2;
@@ -26,5 +27,6 @@ public class Bai_1 {
         else{
             System.out.println(y);
         }
+        sc.close();
     }
 }

@@ -21,5 +21,6 @@ public class Bai_6 {
         }
         System.out.println(s_num);
         System.out.println(s_str);
+        sc.close();
     }
 }

@@ -17,5 +17,6 @@ public class java0104 {
             sum += arr[i];
         }
         System.out.println(sum);
+        sc.close();
     }
 }

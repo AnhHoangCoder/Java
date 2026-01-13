@@ -37,5 +37,6 @@ public class Bai_2{
         else{
             System.out.println("CHUPPY");
         }
+        sc.close();
     }
 }

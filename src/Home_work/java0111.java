@@ -16,6 +16,7 @@ public class java0111 {
                 System.out.println("NO");
             }
         }
+        sc.close();
     }
     public static boolean checkLienKe(long n){
         StringBuilder sb = new StringBuilder(String.valueOf(n));

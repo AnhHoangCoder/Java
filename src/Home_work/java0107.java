@@ -22,5 +22,6 @@ public class java0107 {
             }
             System.out.printf("%.2f" , diem);
         }
+        sc.close();
     }
 }

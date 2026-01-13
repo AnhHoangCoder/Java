@@ -21,6 +21,7 @@ public class java0109 {
                 }
             }
         }
+        sc.close();
     }
     public static boolean checkChanLe(long n){
         int chan = 0 , le = 0;

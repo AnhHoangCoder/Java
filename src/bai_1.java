@@ -11,5 +11,6 @@ public class bai_1 {
 
         System.out.println("Chu vi = " + cv);
         System.out.println("Diện tích = " + dt);
+        sc.close();
     }
 }

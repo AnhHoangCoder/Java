@@ -29,5 +29,6 @@ public class Bai_5 {
         else{
             System.out.println("User không tồn tại");
         }
+        input.close();
     }
 }

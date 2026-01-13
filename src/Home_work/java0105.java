@@ -16,6 +16,7 @@ public class java0105 {
                 System.out.println("NO");
             }
         }
+        sc.close();
     }
     public static boolean check_soLocPhat(int n){
         String s = String.valueOf(n);

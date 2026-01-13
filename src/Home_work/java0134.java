@@ -30,5 +30,6 @@ public class java0134 {
                 System.out.println(list.get(k-1));
             }
         }
+        sc.close();
     }
 }

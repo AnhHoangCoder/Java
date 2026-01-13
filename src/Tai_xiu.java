@@ -47,6 +47,7 @@ public class Tai_xiu{
                 break;
             }
         }
+        sc.close();
     }
     public static String chuan_hoa(String name){
         name = name.trim().toLowerCase();

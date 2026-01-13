@@ -41,5 +41,6 @@ public class Bai_3{
                 break;
             }
         }
+        sc.close();
     }
 }

@@ -18,6 +18,7 @@ public class Bai_7 {
         String str = sc.nextLine();
 
         System.out.println(chuanHoa(str));
+        sc.close();
     }
 
     public static String chuanHoa(String s){
