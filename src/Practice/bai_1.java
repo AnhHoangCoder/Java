@@ -19,6 +19,7 @@ public class bai_1 {
             }
         }
         showList(list);
+        sc.close();
     }
     public static void showList(List<Integer> list){
         if(list != null && !list.isEmpty()){
