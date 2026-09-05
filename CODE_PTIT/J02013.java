@@ -62,6 +62,6 @@ public class J02013 {
             sb.append("\n");
         }
 
-        System.out.println(sb);
+        System.out.print(sb);
     }
 }
