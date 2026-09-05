@@ -27,20 +27,28 @@
 //
 //        45 48 54 87 89 21 70 78 15
 //        25 27 21 23
-
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 public class J02101 {
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+    static BufferedReader br;
+    static StreamTokenizer st;
 
-        int t = sc.nextInt();
+    static int nextInt() throws IOException {
+        st.nextToken();
+        return (int) st.nval;
+    }
+    public static void main(String[] args) throws IOException {
+        br = new BufferedReader(new InputStreamReader(System.in));
+        st = new StreamTokenizer(br);
+
+        int t = nextInt();
         while(t-->0){
-            int n = sc.nextInt();
+            int n = nextInt();
             int[][] a = new int[n][n];
             for(int i = 0; i < n; i++){
                 for(int j = 0; j < n; j++){
-                    a[i][j] = sc.nextInt();
+                    a[i][j] = nextInt();
                 }
             }
             StringBuilder sb = new StringBuilder();
