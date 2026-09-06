@@ -34,7 +34,7 @@ import java.util.*;
 
 public class J03011 {
     static BufferedReader br;
-
+    //TC toan hoc
     static long modLong(String b, long a){
         long r = 0;
         for(char c : b.toCharArray()){
