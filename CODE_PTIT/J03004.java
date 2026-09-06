@@ -37,18 +37,17 @@ public class J03004 {
             String s = br.readLine().trim();
             String[] a = s.toLowerCase().split("\\s+");
 
-            StringBuilder sb = new StringBuilder();
             for(int i = 0; i < a.length; i++){
                 a[i] = Character.toUpperCase(a[i].charAt(0)) + a[i].substring(1);
             }
 
             for(int i = 0; i < a.length; i++){
-                sb.append(a[i]);
+                res.append(a[i]);
                 if(i < a.length - 1){
-                    sb.append(" ");
+                    res.append(" ");
                 }
             }
-            res.append(sb).append("\n");
+            res.append("\n");
         }
         System.out.print(res);
     }
