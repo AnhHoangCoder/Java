@@ -1,0 +1,34 @@
+Cho hai file nhị phân DATA1.in và DATA2.in trong đó mỗi file đều có một ArrayList<Integer> được ghi theo kiểu object. Các giá trị số đều nguyên dương và nhỏ hơn 10000.
+
+Hãy liệt kê các số nguyên tố xuất hiện trong cả hai file trên.
+
+Input
+
+Hai file nhị phân như mô tả.
+
+Output
+
+Ghi ra màn hình danh sách các số nguyên tố xuất hiện trong cả hai file. Mỗi số thỏa mãn liệt kê trên một dòng theo thứ tự tăng dần, gồm giá trị số nguyên tố, số lần xuất hiện trong DATA1.in và số lần xuất hiện trong DATA2.in.
+
+Ví dụ
+
+
+
+Input
+
+Output
+
+File nhị phân DATA1.in và DATA2.in theo mô tả đề bài
+
+
+Danh sách các số nguyên tố tăng dần và số lần xuất hiện trong 2 file. Ví dụ:
+
+
+2 4 19
+
+
+7 15 4
+
+
+997 8 1
+
