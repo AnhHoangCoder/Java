@@ -88,7 +88,8 @@ public class Push {
                 String name = br.readLine().trim();
                 long gia1 = Long.parseLong(br.readLine().trim());
                 long gia2 = Long.parseLong(br.readLine().trim());
-                map.put(ma, new SanPham(ma, name, gia1, gia2));
+                SanPham sp = new SanPham(ma, name, gia1, gia2);
+                map.put(sp.getMa(), sp);
             }
         }
         catch(FileNotFoundException e){
